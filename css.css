@@ -1,0 +1,62 @@
+.container{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+.flag{
+    background-color: #fff;
+    border: 2px solid lightgray;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    background-color: darkred;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    position: relative;
+}
+.instagram{
+    width: 500px;
+    height: 500px;
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+border-radius: 100px;
+}
+.line{
+    width: 350px;
+    height: 350px;
+    border: 30px solid #fff;
+    position: relative;
+    margin: auto;
+    top: 40px;
+    left: 0;
+    border-radius: 100px;
+}
+.icircle{
+    border-radius: 50%;
+    border: 30px solid #fff;
+    width: 200px;
+    height: 200px; 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.icircle::after{
+width: 40px;
+height: 40px;
+background-color: #fff;
+border-radius: 100%;
+position: absolute;
+bottom: 0;
+top: -270px;
+right: 0;
+left: 200px;
+margin: auto;
+content: '';
+}
